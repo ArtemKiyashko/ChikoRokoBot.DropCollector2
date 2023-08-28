@@ -1,0 +1,4 @@
+cloudscraper==1.2.71
+lxml==4.9.3
+azure-identity==1.14.0
+azure-storage-queue==12.6.0
