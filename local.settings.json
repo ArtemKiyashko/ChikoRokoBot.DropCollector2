@@ -5,7 +5,7 @@
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
         "DropCollectorOptions__Url": "https://chikoroko.art/en",
-        "DropCollectorOptions__DataElementQuerySelector": "//script[@id=\"__NEXT_DATA__\"]",
+        "DropCollectorOptions__DataElementQuerySelector": "//*[@id=\"__NEXT_DATA__\"]",
         "DropCollectorOptions__StorageAccount": "UseDevelopmentStorage=true",
         "DropCollectorOptions__QueueName": "alldrops"
     }

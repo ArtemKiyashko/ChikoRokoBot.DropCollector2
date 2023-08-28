@@ -14,7 +14,7 @@ app = func.FunctionApp()
               run_on_startup=True) 
 def main(mytimer: func.TimerRequest) -> None:
     DropCollectorOptions__Url = os.environ.get('DropCollectorOptions__Url', 'https://chikoroko.art/en')
-    DropCollectorOptions__DataElementQuerySelector = os.environ.get('DropCollectorOptions__DataElementQuerySelector', '//script[@id="__NEXT_DATA__"]')
+    DropCollectorOptions__DataElementQuerySelector = os.environ.get('DropCollectorOptions__DataElementQuerySelector', '//*[@id="__NEXT_DATA__"]')
     DropCollectorOptions__StorageAccount = os.environ.get('DropCollectorOptions__StorageAccount', 'UseDevelopmentStorage=true')
     DropCollectorOptions__QueueName = os.environ.get('DropCollectorOptions__QueueName', 'alldrops')
 
